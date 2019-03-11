@@ -1,8 +1,9 @@
 {
+	"state": "production",
 	"organization": "gearboxworks",
 	"name": "nginx",
-	"version": "1.13.12",
-	"majorversion": "1.13",
+	"version": "1.12.2",
+	"majorversion": "1.12",
 	"latest": "",
 	"class": "webserver",
 	"network": "--network gearboxnet",
