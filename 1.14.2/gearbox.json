@@ -10,7 +10,7 @@
 	"ports": "-p 180:80 -p 1443:443",
 	"volumes": "",
 	"restart": "--restart no",
-	"args": "--add-host 'mailhog:172.42.0.1'",
+	"args": "--add-host mailhog:172.42.0.1",
 	"env": "NGINX_VERSION"
 }
 
