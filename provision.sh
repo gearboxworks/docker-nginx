@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONTAINER="nginx-docker"
+CONTAINER="docker-nginx"
 BASEDIR="/tmp"
 
 
@@ -21,7 +21,7 @@ then
 	git pull
 	cd ${BASEDIR}
 else
-	git clone https://github.com/gearbox/${CONTAINER}.git
+	git clone https://github.com/gearboxworks/${CONTAINER}.git
 fi
 
 if [ -d ${BASEDIR}/${CONTAINER}/${VERSION} ]
