@@ -27,5 +27,5 @@ RUN /bin/sh /build/build-base.sh
 RUN /bin/sh /build/build-nginx.sh
 
 # 8. Expose ports.
-EXPOSE 80 443 9970
+EXPOSE 22 80 443 9970
 
