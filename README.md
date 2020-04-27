@@ -68,9 +68,9 @@ Create, and start the nginx Gearbox container. Run a shell.
 
 `./bin/gb-launch -gb-name nginx -gb-shell`
 
-Create, and start the nginx Gearbox container with version 1.12.2 and run a shell.
+Create, and start the nginx Gearbox container with version 1.14.2 and run a shell.
 
-`./bin/gb-launch -gb-name nginx -gb-version 1.12.2 -gb-shell`
+`./bin/gb-launch -gb-name nginx -gb-version 1.14.2 -gb-shell`
 
 If nginx is symlinked to `gb-launch`, then you can drop the `-gb-name` flag.
 
@@ -80,18 +80,18 @@ Running nginx Gearbox container default command. If a container has a default in
 
 `./bin/nginx -flag1 -flag2 variable`
 
-`./bin/gb-launch -gb-name nginx -gb-version 1.12.2 -flag1 -flag2 variable`
+`./bin/gb-launch -gb-name nginx -gb-version 1.14.2 -flag1 -flag2 variable`
 
 
 Running alternate commands within the nginx Gearbox container.
 
 `./bin/nginx -gb-shell -- ls -l`
 
-`./bin/gb-launch -gb-name nginx -gb-version 1.12.2 -gb-shell -- ls -l`
+`./bin/gb-launch -gb-name nginx -gb-version 1.14.2 -gb-shell -- ls -l`
 
 `./bin/nginx -gb-shell -- ps -eaf`
 
-`./bin/gb-launch -gb-name nginx -gb-version 1.12.2 -gb-shell -- ps -eaf`
+`./bin/gb-launch -gb-name nginx -gb-version 1.14.2 -gb-shell -- ps -eaf`
 
 
 ssh - All [Gearbox](https://github.com/gearboxworks/) containers have a running SSH daemon. So you can connect remotely.
